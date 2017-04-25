@@ -14,6 +14,11 @@
 		CFE904601EAE4BB400D059D4 /* MenuItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE9045F1EAE4BB400D059D4 /* MenuItemTests.swift */; };
 		CFE904621EAE4C6B00D059D4 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE904611EAE4C6B00D059D4 /* MenuItem.swift */; };
 		CFE904631EAE4C6B00D059D4 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE904611EAE4C6B00D059D4 /* MenuItem.swift */; };
+		CFE904651EAF5C8F00D059D4 /* MenuItemsReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE904641EAF5C8F00D059D4 /* MenuItemsReader.swift */; };
+		CFE904661EAF5C8F00D059D4 /* MenuItemsReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE904641EAF5C8F00D059D4 /* MenuItemsReader.swift */; };
+		CFE904681EAF5E1100D059D4 /* MenuItemsPlistReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE904671EAF5E1100D059D4 /* MenuItemsPlistReaderTests.swift */; };
+		CFE9046A1EAF7B4C00D059D4 /* MenuItemsPlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE904691EAF7B4C00D059D4 /* MenuItemsPlistReader.swift */; };
+		CFE9046B1EAF7B4C00D059D4 /* MenuItemsPlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE904691EAF7B4C00D059D4 /* MenuItemsPlistReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,9 @@
 		CFE904591EAE4AD300D059D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFE9045F1EAE4BB400D059D4 /* MenuItemTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemTests.swift; sourceTree = "<group>"; };
 		CFE904611EAE4C6B00D059D4 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		CFE904641EAF5C8F00D059D4 /* MenuItemsReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemsReader.swift; sourceTree = "<group>"; };
+		CFE904671EAF5E1100D059D4 /* MenuItemsPlistReaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemsPlistReaderTests.swift; sourceTree = "<group>"; };
+		CFE904691EAF7B4C00D059D4 /* MenuItemsPlistReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemsPlistReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,8 @@
 				CFE904451EAE467600D059D4 /* LaunchScreen.storyboard */,
 				CFE904481EAE467600D059D4 /* Info.plist */,
 				CFE904611EAE4C6B00D059D4 /* MenuItem.swift */,
+				CFE904641EAF5C8F00D059D4 /* MenuItemsReader.swift */,
+				CFE904691EAF7B4C00D059D4 /* MenuItemsPlistReader.swift */,
 			);
 			path = AppMenu;
 			sourceTree = "<group>";
@@ -93,6 +103,7 @@
 				CFE904571EAE4AD300D059D4 /* AppMenuTests.swift */,
 				CFE904591EAE4AD300D059D4 /* Info.plist */,
 				CFE9045F1EAE4BB400D059D4 /* MenuItemTests.swift */,
+				CFE904671EAF5E1100D059D4 /* MenuItemsPlistReaderTests.swift */,
 			);
 			path = AppMenuTests;
 			sourceTree = "<group>";
@@ -202,7 +213,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE9043D1EAE467600D059D4 /* AppDelegate.swift in Sources */,
+				CFE904651EAF5C8F00D059D4 /* MenuItemsReader.swift in Sources */,
 				CFE904621EAE4C6B00D059D4 /* MenuItem.swift in Sources */,
+				CFE9046A1EAF7B4C00D059D4 /* MenuItemsPlistReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +224,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE904631EAE4C6B00D059D4 /* MenuItem.swift in Sources */,
+				CFE904681EAF5E1100D059D4 /* MenuItemsPlistReaderTests.swift in Sources */,
 				CFE904581EAE4AD300D059D4 /* AppMenuTests.swift in Sources */,
+				CFE9046B1EAF7B4C00D059D4 /* MenuItemsPlistReader.swift in Sources */,
+				CFE904661EAF5C8F00D059D4 /* MenuItemsReader.swift in Sources */,
 				CFE904601EAE4BB400D059D4 /* MenuItemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

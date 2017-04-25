@@ -9,22 +9,26 @@
 import XCTest
 
 class MenuItemTests: XCTestCase {
+    var menuItem: MenuItem?
+    
+    override func setUp() {
+        super.setUp()
+        menuItem = MenuItem(title: "Contributions")
+        
+    }
     
     func testThatMenuItemHasATitle() {
-        let menuItem = MenuItem(title: "Contributions")
-        XCTAssertEqual(menuItem.title, "Contributions",
+        XCTAssertEqual(menuItem!.title, "Contributions",
                        "A title should always be present")
     }
     
     func testThatMenuItemCanBeAssignedASubTitle() {
-        let menuItem = MenuItem(title: "Contributions")
-        menuItem.subTitle = "Repos contributed to"
-        XCTAssertEqual(menuItem.subTitle!, "Repos contributed to")
+        menuItem!.subTitle = "Repos contributed to"
+        XCTAssertEqual(menuItem!.subTitle!, "Repos contributed to")
     }
     
     func testThatMenuItemCanBeAssignAnIconName() {
-        let menuItem = MenuItem(title: "Contributions")
-        menuItem.iconName = "iconContributions"
-        XCTAssertEqual(menuItem.iconName!, "iconContributions")
+        menuItem!.iconName = "iconContributions"
+        XCTAssertEqual(menuItem!.iconName!, "iconContributions")
     }
 }
