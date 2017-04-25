@@ -19,6 +19,8 @@
 		CFE904681EAF5E1100D059D4 /* MenuItemsPlistReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE904671EAF5E1100D059D4 /* MenuItemsPlistReaderTests.swift */; };
 		CFE9046A1EAF7B4C00D059D4 /* MenuItemsPlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE904691EAF7B4C00D059D4 /* MenuItemsPlistReader.swift */; };
 		CFE9046B1EAF7B4C00D059D4 /* MenuItemsPlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE904691EAF7B4C00D059D4 /* MenuItemsPlistReader.swift */; };
+		CFE9046D1EAFA74B00D059D4 /* menuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFE9046C1EAFA74B00D059D4 /* menuItems.plist */; };
+		CFE9046E1EAFA74B00D059D4 /* menuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFE9046C1EAFA74B00D059D4 /* menuItems.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,7 @@
 		CFE904641EAF5C8F00D059D4 /* MenuItemsReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemsReader.swift; sourceTree = "<group>"; };
 		CFE904671EAF5E1100D059D4 /* MenuItemsPlistReaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemsPlistReaderTests.swift; sourceTree = "<group>"; };
 		CFE904691EAF7B4C00D059D4 /* MenuItemsPlistReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemsPlistReader.swift; sourceTree = "<group>"; };
+		CFE9046C1EAFA74B00D059D4 /* menuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menuItems.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,7 @@
 				CFE904611EAE4C6B00D059D4 /* MenuItem.swift */,
 				CFE904641EAF5C8F00D059D4 /* MenuItemsReader.swift */,
 				CFE904691EAF7B4C00D059D4 /* MenuItemsPlistReader.swift */,
+				CFE9046C1EAFA74B00D059D4 /* menuItems.plist */,
 			);
 			path = AppMenu;
 			sourceTree = "<group>";
@@ -195,6 +199,7 @@
 			files = (
 				CFE904471EAE467600D059D4 /* LaunchScreen.storyboard in Resources */,
 				CFE904441EAE467600D059D4 /* Assets.xcassets in Resources */,
+				CFE9046D1EAFA74B00D059D4 /* menuItems.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE9046E1EAFA74B00D059D4 /* menuItems.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

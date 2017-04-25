@@ -8,13 +8,15 @@
 
 import Foundation
 
+let MenuItemsPlistReaderErrorDomain = "MenuItemsPlistReaderErrorDomain"
+
+enum MenuItemPlistReaderErrorCode: Int {
+    case FileNotFound
+}
+
+
 class MenuItemsPlistReader: MenuItemsReader {
     var plistToReadFrom: String? = nil
-    let MenuItemsPlistReaderErrorDomain = "MenuItemsPlistReaderErrorDomain"
-    
-    enum MenuItemPlistReaderErrorCode: Int {
-        case FileNotFound
-    }
     
     func readMenuItems() -> ([[String : String]]?, NSError?) {
         let errorMessage = "\(plistToReadFrom!).plist file doesn't exist in app bundle"
