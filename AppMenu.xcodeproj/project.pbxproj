@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFA046B41EB2187A00ADE534 /* MenuTabelDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA046B31EB2187A00ADE534 /* MenuTabelDataSource.swift */; };
+		CFA046B51EB2187A00ADE534 /* MenuTabelDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA046B31EB2187A00ADE534 /* MenuTabelDataSource.swift */; };
+		CFA046BA1EB2194200ADE534 /* MenuTableDefaultDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA046B91EB2194200ADE534 /* MenuTableDefaultDataSourceTests.swift */; };
+		CFA046BC1EB21A9E00ADE534 /* MenuTableDefaultDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA046BB1EB21A9E00ADE534 /* MenuTableDefaultDataSource.swift */; };
+		CFA046BD1EB21A9E00ADE534 /* MenuTableDefaultDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA046BB1EB21A9E00ADE534 /* MenuTableDefaultDataSource.swift */; };
 		CFE9043D1EAE467600D059D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE9043C1EAE467600D059D4 /* AppDelegate.swift */; };
 		CFE904441EAE467600D059D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE904431EAE467600D059D4 /* Assets.xcassets */; };
 		CFE904471EAE467600D059D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE904451EAE467600D059D4 /* LaunchScreen.storyboard */; };
@@ -21,6 +26,10 @@
 		CFE9046B1EAF7B4C00D059D4 /* MenuItemsPlistReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE904691EAF7B4C00D059D4 /* MenuItemsPlistReader.swift */; };
 		CFE9046D1EAFA74B00D059D4 /* menuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFE9046C1EAFA74B00D059D4 /* menuItems.plist */; };
 		CFE9046E1EAFA74B00D059D4 /* menuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFE9046C1EAFA74B00D059D4 /* menuItems.plist */; };
+		CFE904701EB1EEBE00D059D4 /* MenuItemBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE9046F1EB1EEBE00D059D4 /* MenuItemBuilderTests.swift */; };
+		CFE904721EB1F3B500D059D4 /* FakeMenuItemsReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE904711EB1F3B500D059D4 /* FakeMenuItemsReader.swift */; };
+		CFE904741EB202CE00D059D4 /* MenuItemBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE904731EB202CE00D059D4 /* MenuItemBuilder.swift */; };
+		CFE904751EB202CE00D059D4 /* MenuItemBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE904731EB202CE00D059D4 /* MenuItemBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CFA046B31EB2187A00ADE534 /* MenuTabelDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTabelDataSource.swift; sourceTree = "<group>"; };
+		CFA046B91EB2194200ADE534 /* MenuTableDefaultDataSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableDefaultDataSourceTests.swift; sourceTree = "<group>"; };
+		CFA046BB1EB21A9E00ADE534 /* MenuTableDefaultDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableDefaultDataSource.swift; sourceTree = "<group>"; };
 		CFE904391EAE467600D059D4 /* AppMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE9043C1EAE467600D059D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFE904431EAE467600D059D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +60,9 @@
 		CFE904671EAF5E1100D059D4 /* MenuItemsPlistReaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemsPlistReaderTests.swift; sourceTree = "<group>"; };
 		CFE904691EAF7B4C00D059D4 /* MenuItemsPlistReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemsPlistReader.swift; sourceTree = "<group>"; };
 		CFE9046C1EAFA74B00D059D4 /* menuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menuItems.plist; sourceTree = "<group>"; };
+		CFE9046F1EB1EEBE00D059D4 /* MenuItemBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemBuilderTests.swift; sourceTree = "<group>"; };
+		CFE904711EB1F3B500D059D4 /* FakeMenuItemsReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeMenuItemsReader.swift; sourceTree = "<group>"; };
+		CFE904731EB202CE00D059D4 /* MenuItemBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,12 +105,15 @@
 			isa = PBXGroup;
 			children = (
 				CFE9043C1EAE467600D059D4 /* AppDelegate.swift */,
-				CFE904431EAE467600D059D4 /* Assets.xcassets */,
-				CFE904451EAE467600D059D4 /* LaunchScreen.storyboard */,
-				CFE904481EAE467600D059D4 /* Info.plist */,
 				CFE904611EAE4C6B00D059D4 /* MenuItem.swift */,
 				CFE904641EAF5C8F00D059D4 /* MenuItemsReader.swift */,
 				CFE904691EAF7B4C00D059D4 /* MenuItemsPlistReader.swift */,
+				CFE904731EB202CE00D059D4 /* MenuItemBuilder.swift */,
+				CFA046B31EB2187A00ADE534 /* MenuTabelDataSource.swift */,
+				CFA046BB1EB21A9E00ADE534 /* MenuTableDefaultDataSource.swift */,
+				CFE904431EAE467600D059D4 /* Assets.xcassets */,
+				CFE904451EAE467600D059D4 /* LaunchScreen.storyboard */,
+				CFE904481EAE467600D059D4 /* Info.plist */,
 				CFE9046C1EAFA74B00D059D4 /* menuItems.plist */,
 			);
 			path = AppMenu;
@@ -105,9 +123,12 @@
 			isa = PBXGroup;
 			children = (
 				CFE904571EAE4AD300D059D4 /* AppMenuTests.swift */,
-				CFE904591EAE4AD300D059D4 /* Info.plist */,
 				CFE9045F1EAE4BB400D059D4 /* MenuItemTests.swift */,
 				CFE904671EAF5E1100D059D4 /* MenuItemsPlistReaderTests.swift */,
+				CFE9046F1EB1EEBE00D059D4 /* MenuItemBuilderTests.swift */,
+				CFE904711EB1F3B500D059D4 /* FakeMenuItemsReader.swift */,
+				CFA046B91EB2194200ADE534 /* MenuTableDefaultDataSourceTests.swift */,
+				CFE904591EAE4AD300D059D4 /* Info.plist */,
 			);
 			path = AppMenuTests;
 			sourceTree = "<group>";
@@ -219,8 +240,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE9043D1EAE467600D059D4 /* AppDelegate.swift in Sources */,
+				CFE904741EB202CE00D059D4 /* MenuItemBuilder.swift in Sources */,
+				CFA046B41EB2187A00ADE534 /* MenuTabelDataSource.swift in Sources */,
 				CFE904651EAF5C8F00D059D4 /* MenuItemsReader.swift in Sources */,
 				CFE904621EAE4C6B00D059D4 /* MenuItem.swift in Sources */,
+				CFA046BC1EB21A9E00ADE534 /* MenuTableDefaultDataSource.swift in Sources */,
 				CFE9046A1EAF7B4C00D059D4 /* MenuItemsPlistReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,10 +253,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA046BD1EB21A9E00ADE534 /* MenuTableDefaultDataSource.swift in Sources */,
+				CFA046BA1EB2194200ADE534 /* MenuTableDefaultDataSourceTests.swift in Sources */,
 				CFE904631EAE4C6B00D059D4 /* MenuItem.swift in Sources */,
 				CFE904681EAF5E1100D059D4 /* MenuItemsPlistReaderTests.swift in Sources */,
 				CFE904581EAE4AD300D059D4 /* AppMenuTests.swift in Sources */,
+				CFE904701EB1EEBE00D059D4 /* MenuItemBuilderTests.swift in Sources */,
+				CFE904751EB202CE00D059D4 /* MenuItemBuilder.swift in Sources */,
 				CFE9046B1EAF7B4C00D059D4 /* MenuItemsPlistReader.swift in Sources */,
+				CFA046B51EB2187A00ADE534 /* MenuTabelDataSource.swift in Sources */,
+				CFE904721EB1F3B500D059D4 /* FakeMenuItemsReader.swift in Sources */,
 				CFE904661EAF5C8F00D059D4 /* MenuItemsReader.swift in Sources */,
 				CFE904601EAE4BB400D059D4 /* MenuItemTests.swift in Sources */,
 			);
@@ -424,6 +454,7 @@
 				CFE9044D1EAE467600D059D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFE9045C1EAE4AD300D059D4 /* Build configuration list for PBXNativeTarget "AppMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +463,7 @@
 				CFE9045E1EAE4AD300D059D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

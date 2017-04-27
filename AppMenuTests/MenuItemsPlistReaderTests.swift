@@ -9,19 +9,23 @@
 import XCTest
 
 class MenuItemsPlistReaderTests: XCTestCase {
+    var plistReader: MenuItemsPlistReader?
+    var metadata: [[String: String]]?
+    var error: NSError?
+    
+    
+    override func setUp() {
+        super.setUp()
+        plistReader = MenuItemsPlistReader()
+        plistReader?.plistToReadFrom = "notFound"
+        (metadata, error) = plistReader!.readMenuItems()
+    }
+    
     func testErrorIsReturnedWhenFileDoesnNotExist() {
-        let plistReader = MenuItemsPlistReader()
-        plistReader.plistToReadFrom = "notFound"
-        
-        let (metadata, error) = plistReader.readMenuItems();
         XCTAssertNotNil(error, "Error is returned when plist doesn't exist")
     }
     
     func testCorrectErrorDomainIsReturnedWhenPlistDoesNotExist() {
-        let plistReader = MenuItemsPlistReader()
-        plistReader.plistToReadFrom = "notFound"
-        
-        let (metadata, error) = plistReader.readMenuItems()
         let errorDomain = error?.domain
         
         XCTAssertEqual(errorDomain!,
@@ -30,10 +34,6 @@ class MenuItemsPlistReaderTests: XCTestCase {
     }
     
     func testFileNotFoundErrorCodeIsReturnedWhenPlistDoesNotExist() {
-        let plistReader = MenuItemsPlistReader()
-        plistReader.plistToReadFrom = "notFound"
-        
-        let (metadata, error) = plistReader.readMenuItems()
         let errorCode = error?.code
         
         XCTAssertEqual(errorCode!,
@@ -43,10 +43,6 @@ class MenuItemsPlistReaderTests: XCTestCase {
     }
     
     func testCorrectErrorDescriptionIsReturnedWhenPlistDoesNotExist() {
-        let plistReader = MenuItemsPlistReader()
-        plistReader.plistToReadFrom = "notFound"
-        
-        let (metadata, error) = plistReader.readMenuItems()
         let userInfo = error?.userInfo
         let description: String = userInfo![NSLocalizedDescriptionKey] as! String
         
@@ -57,10 +53,9 @@ class MenuItemsPlistReaderTests: XCTestCase {
     }
     
     func testPlistIsDeserializedCorrectly() {
-        let plistReader = MenuItemsPlistReader()
-        plistReader.plistToReadFrom = "menuItems"
+        plistReader!.plistToReadFrom = "menuItems"
+        (metadata, error) = plistReader!.readMenuItems()
         
-        let (metadata, error) = plistReader.readMenuItems()
         XCTAssertTrue(metadata?.count == 3, "There should only be three dictionaries in plist")
         
         let firstRow = metadata?[0]
